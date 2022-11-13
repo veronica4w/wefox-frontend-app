@@ -23,17 +23,7 @@
       "lat": 54.9,
       "long": -3.70379,
       "image_url": "https://c2.staticflickr.com/2/1269/4670777817_d657cd9819_b.jpg"
-    },
-    {
-      "apiId": "v1",
-      "id": 4
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
+  
   ]
 }
