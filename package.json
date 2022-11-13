@@ -1,0 +1,18 @@
+{
+  "name": "angular-weefox",
+  "version": "1.0.0",
+  "description": "Angular client that consumes an Api",
+  "main": "index.js",
+  "scripts": {
+    "initiate": "npm install && cd ./frontend && npm install && cd ../backend && npm install",
+    "frontend": "cd ./frontend && npm run start",
+    "backend": "cd ./backend && npm start",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "Verónica Serna",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
